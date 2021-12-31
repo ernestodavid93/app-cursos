@@ -1,0 +1,50 @@
+.back{
+    background-color: aqua;
+}
+
+.py-36 {
+	padding-top: 9rem;
+	padding-bottom: 9rem;
+}
+
+.py-24 {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.text-4-1xl {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.text-yellow-400 {
+    color: yellow;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-md{
+    width: 75%
+}
+
+.mt-24{
+    margin-top: 4rem;
+}
+
+.w-1\/2 {
+	width: 50%;
+}
+
+.none {
+	text-decoration: none;
+}
+
+.bg-gray {
+    background-color: grey;
+}
+
+.bg-black {
+    background-color: black;
+}

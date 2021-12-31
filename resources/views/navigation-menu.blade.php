@@ -18,14 +18,14 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="{{ route('home') }}">
-                        <x-jet-application-mark class="block h-9 w-auto" />
+                        <i style="font-size: 60px;" class="far fa-eye"></i>
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     @foreach ($links as $link)
-                    <x-jet-nav-link href="{{ $link['route'] }}" :active="$link['active']">
+                    <x-jet-nav-link class="text-lg" href="{{ $link['route'] }}" :active="$link['active']">
                         {{ $link['name'] }}
                     </x-jet-nav-link>
                     @endforeach
@@ -139,8 +139,12 @@
                             </x-slot>
                         </x-jet-dropdown>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                        <i class="fas fa-sign-in-alt"></i>
+                        <a href="{{ route('login') }}" class="mr-4 text-lg none text-gray-700 dark:text-gray-500 underline">Login</a>
+                        
+                        <i class="fas fa-user-plus"></i>
+                        <a href="{{ route('register') }}" class="none text-lg text-gray-700 dark:text-gray-500 underline">Register</a>
+                        
                     @endauth
                 </div>
                 

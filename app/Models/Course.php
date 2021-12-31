@@ -24,6 +24,10 @@ class Course extends Model
         }
     }
 
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
     //Relacion 1:n
     public function reviews(){
         return $this->hasOne('App\Models\Review');
