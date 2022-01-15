@@ -113,8 +113,8 @@
         </div>
     </section>
 
-    <footer class="mt-24 bg-gray py-12">
-        <p>Derechos reservados</p>
-        <i class="far fa-copyright"></i>
+    <footer class="mt-24 bg-gray py-12 text-center">
+        <p class="text-white text-xl font-bold">Derechos reservados <i class="far fa-copyright"></i></p>
+        
     </footer>
 </x-app-layout>
